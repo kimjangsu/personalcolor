@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="//fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>인공지능 퍼스널컬러 자가진단 TEST</title>
+    <meta name="title" content="퍼스널컬러 자가진단 앱 - 컬러픽">
+    <meta name="subject" content="인공지능 퍼스널컬러 진단, 나와 어울리는 퍼스널컬러를 찾아보세요!">
+    <meta name="description" content="AI가 찾아주는 나의 퍼스널컬러, 사진으로 하는 퍼스널컬러 자가진단">
+    <meta name="keywords" content="퍼스널컬러 진단, 인공지능 퍼스널컬러 진단, 퍼스널컬러, 퍼스널컬러 진단, 퍼스널컬러 갤러리, 퍼스널컬러 자가진단, 퍼스널컬러 진단 가격, 봄웜톤,여름쿨톤,가을뮤트,가을뮤트톤,가을웜톤,가을웜,겨울쿨톤, 겨울브라이트톤,겨울딥톤,퍼스널컬러메이크업, 봄웜메이크업,여름쿨메이크업,가을뮤트메이크업,가을웜메이크업,겨울쿨메이크업,겨울딥 메이크업, 가을뮤트 블러셔,가을뮤트 팔레트,가을뮤트 연예인,가을뮤트 염색, 가을뮤트 섀도우,가을뮤트 립,가을웜톤 염색, 가을웜톤 립, 가을 웜 뮤트, 가을웝톤 섀도우, 봄웜 가을웜, 가을웜톤 연예인, 가을웜톤 블러셔, 가을웜톤 옷,웜톤 연예인, 봄웜톤 염색, 아이유 봄웜톤, 봄웜톤 연예인, 봄웜톤 립스틱,봄웜톤 립, 봄 웜톤 색, 청하여름쿨톤,선미겨울쿨톤,여름쿨톤섀도우,여름쿨톤팔레트, 여름쿨톤 옷, 여름쿨톤 염색, 여름쿨톤 메이크업, 여름쿨톤 라이트, 여름쿨톤 립, 겨울쿨톤 염색, 겨울쿨톤 연예인, 겨울쿨톤 립, 겨울쿨톤 브라이트, 겨울쿨톤 섀도우, 겨울쿨톤 팔레트, 겨울 쿨톤 파운데이션, 겨울쿨톤 립, 겨울쿨톤 립스틱, 겨울 쿨톤 브라이트, 현아쿨톤, 김혜수쿨톤, 이영애쿨톤">
+    <meta name="author" content="더블제이랩">
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="http://color-pick.kr" />
+    <meta property="og:url" content="http://color-pick.kr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI 퍼스널컬러 자가 진단 - 컬러픽" />
+    <meta property="og:description" content="사진으로 보는 인공지능 퍼스널컬러 진단, 나와 어울리는 퍼스널컬러를 찾아보세요!"
+    />
+    <meta property="og:image" content="/img/ai-personal-color.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fbc94fd590d1017"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="//www.googletagmanager.com/gtag/js?id=G-XNZVL272G3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XNZVL272G3');
+    </script>
+
+
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/doublejlab/loader.js',
+  'tb_loader_script');
+  if(window.performance && typeof window.performance.mark == 'function')
+    {window.performance.mark('tbl_ic');}
+</script>
+
+</head>
+
+<!-- This Comment only for Git  -->
+<body>
+    <nav class="p-3 container navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="http://color-pick.kr/">퍼스널컬러 진단</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">퍼스널컬러 진단
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <section class="section" style="margin-top:20px;text-align:center;">
+      <img src="/img/personal-color-logo.gif" style="margin:0 0 20px;width:50px;"/>
+      <p>더 이상의 톤팡질팡은 그만!</p>
+        <h1 class="title">AI 퍼스널컬러 진단</h1>
+        <h2 class="subtitle">사진으로 보는 인공지능 퍼스널컬러 진단</h2>
+        <h2 class="sr-only">나는 어떤 퍼스널컬러가 어울릴까? 나의 퍼스널컬러 찾기를 해보세요!</h2>
+        <h3 class="sr-only">퍼스널컬러별 대표 연예인 사진 데이터로 학습한 인공지능이 나에게 어울리는 퍼스널컬러를 찾아드립니다.</h3>
+        <h4 class="sr-only">본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.</h4>
+        <p class="sr-only">인공지능 퍼스널컬러 자가진단, 나와 어울리는 퍼스널컬러를 찾아보세요! 퍼스널컬러별 대표 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴로 동물상과 특징을 찾아드립니다. 회원가입도 필요없이 화면에서 바로 확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 퍼스널컬러 진단 한번 해보세요! 봄웜톤? 여름쿨톤? 가을뮤트톤? 가을웜톤? 겨울쿨톤? 겨울브라이트톤? 인공지능 퍼스널컬러 자가진단을 통해 나와 어울리는 퍼스널컬러 자가진단을할 수 있습니다."
+        />
+    </section>
+
+    <script class="jsbin" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <div class="mt-3 container file-upload">
+        <div class="image-upload-wrap">
+            <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <img src="img/upload.svg" class="mt-5 pt-5 upload">
+                <h3 class="mb-5 pb-5 pt-4  upload-text">손목 사진을 올려놓거나 눌러서 업로드하세요!</h3>
+            </div>
+        </div>
+        <div class="file-upload-content">
+            <img class="file-upload-image" id="skin-image" src="#" alt="your image" />
+            <div id="loading" class="animated bounce">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <p class="text-center">AI가 당신의 퍼스널컬러를 분석중입니다.</p>
+            </div>
+            <p class="result-message"></p>
+            <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox_06bu"></div>
+            <div class="pt-3 image-title-wrap">
+                <button type="button p-2" class="try-again-btn" onclick="gaReload1();" data-toggle="modal" data-target="#adModal">
+                    <span class="try-again-text">다른 사진으로 재시도</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="coupang" class="container d-flex justify-content-center">
+
+    </div>
+
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-qh6C0SMhiauGUaID" data-ad-width="320" data-ad-height="100"></ins>
+    </div>
+
+    <section id="yotube-bottom-link" class="mt-2 d-flex flex-column justify-content-center align-items-center" onclick="gtag('event', '운세1번가 클릭', {'event_category': '운세1번가 클릭','event_label': '하단 광고'});">
+        <a href="http://xn--1-3x5ew15bdnet6h.com/" class="d-flex flex-column justify-content-center align-items-center">
+            <img class="ad-banner"src="/img/640x200.jpg" alt="운세1번가 홍보"/>
+            <span>신점 타로 사주까지 한 곳에 전문가가 모여있다!</span>
+        </a>
+        <h4 class="mt-1">오늘 내 운세는? 시간 장소 상관없이 전화로 운세상담받자!</h4>
+    </section>
+    <div class="mt-2 container d-flex justify-content-center ad-banner">
+        <ins class="kakao_ad_area" style="display:none;"
+          data-ad-unit    = "DAN-NTPimMS04kBZni5e"
+          data-ad-width   = "300"
+          data-ad-height  = "250">
+        </ins>
+    </div>
+    <div class="container pt-3">
+        <div id="disqus_thread"></div>
+    </div>
+    <footer class="footer pt-5 container d-flex justify-content-center">
+        <div>
+            <p>&copy; 더블제이랩 Double J LAB 2020. All Rights Reserved. </p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="adModal" tabindex="-1" role="dialog" aria-labelledby="adModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adModalLabel">(AD)광고 - 재시도를 한번 더 눌러주세요.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                    <ins class="kakao_ad_area" style="display:none;"
+                     data-ad-unit    = "DAN-NTPimMS04kBZni5e"
+                     data-ad-width   = "300"
+                     data-ad-height  = "250">
+                    </ins>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="button p-2" class="try-again-btn" onclick="gaReload2();">
+                        <span class="try-again-text">다른 사진으로 재시도</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="//ads-partners.coupang.com/g.js"></script>
+    <script>
+      new PartnersCoupang.G({ id:370862 });
+    </script> -->
+
+    <script>
+        function gaReload1() {
+            gtag('event', '다른 사진으로 재시도 1차', {
+                'event_category': '다른 사진으로 재시도'
+            });
+        }
+        function gaReload2() {
+            gtag('event', '다른 사진으로 재시도 2차', {
+                'event_category': '다른 사진으로 재시도'
+            });
+            window.location.reload();
+        }
+    </script>
+    <script>
+        (function() {
+        var d = document,
+            s = d.createElement('script');
+        s.src = '//doublejlab.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the
+        <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+    <div id="taboola-below-article-thumbnails"></div>
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({
+        mode: 'alternating-thumbnails-a',
+        container: 'taboola-below-article-thumbnails',
+        placement: 'Below Article Thumbnails',
+        target_type: 'mix'
+      });
+    </script>
+    <script type="text/javascript">
+      window._taboola = window._taboola || [];
+      _taboola.push({flush: true});
+    </script>
+    <script src="//code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+
+    <script src="common.js"></script>
+
+    <script src="ai.js"></script>
+
+    <script>
+        function iosApp() {
+            document.getElementById("coupang").style.display="none";
+            $("#coupang ins").hide();
+            document.getElementById("addThis").style.display="none";
+            document.getElementById("disqus_thread").style.display="none";
+            var kakao = document.getElementsByClassName("kakao_ad_area");
+            for (var i = 0; i < kakao.length; i++) {
+              if(kakao[i]) {
+                  kakao[i].style.display="none";
+              }
+            }
+            document.getElementById("yotube-top-link").style.display="none";
+            document.getElementById("yotube-mid-link").style.display="none";
+            document.getElementById("yotube-bottom-link").style.display="none";
+        }
+    </script>
+</body>
+<!--
+image input box
+Copyright (c) 2020 by Aaron Vanston (//codepen.io/aaronvanston/pen/yNYOXR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+gender toggle
+Copyright (c) 2020 by Mert Cukuren (//codepen.io/knyttneve/pen/bPpEZY)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+ -->
+
+</html>
